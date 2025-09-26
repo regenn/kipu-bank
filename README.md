@@ -8,11 +8,11 @@ Se recomienda utilizar Remix IDE y utilizar una cuenta con ETH de prueba (Sepoli
 
 
 ##  Interaccion con el contrato
-Depositar ETH: 
-  await kipuBank.connect(usuario).deposita({ valor: hre.ethers.parseEther("0.5") });
-Retirar ETH:
-  await kipuBank.connect(usuario).Retira(hre.ethers.parseEther("0.2"));
-Consultar saldo y contadores:
-  const saldo = await kipuBank.getSaldo(usuario.address);
-  const totalAssets = await kipuBank.getTotalAssets();
-  const depositos = await kipuBank.getContDeposito();
+- Depositar ETH: 
+  - await kipuBank.connect(usuario).deposita({ valor: hre.ethers.parseEther("0.5") });
+- Retirar ETH:
+  - await kipuBank.connect(usuario).Retira(hre.ethers.parseEther("0.2"));
+- Consultar saldo y contadores:
+  - const saldo = await kipuBank.getSaldo(usuario.address);
+  - const totalAssets = await kipuBank.getTotalAssets();
+  - const depositos = await kipuBank.getContDeposito();
