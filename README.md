@@ -4,7 +4,7 @@ KipuBank es un Smart Contract escrito en Solidity que funciona como un banco des
 
 
 ##  Despliegue
-Se recomienda utilizar Remix IDE e utilizar una cuenta con ETH de prueba (Sepolia).
+Se recomienda utilizar Remix IDE y utilizar una cuenta con ETH de prueba (Sepolia).
 
 
 ##  Interaccion con el contrato
